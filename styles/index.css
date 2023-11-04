@@ -1,0 +1,18 @@
+#floatingMessage {
+  height: 120px;
+  resize: none;
+}
+
+.right, .left {
+  min-width: 50%;
+}
+
+.hideSide {
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .right, .left {
+    min-width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
